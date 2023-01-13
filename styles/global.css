@@ -33,3 +33,9 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#left {
+    width: 500px;
+    display: flex;
+    height: 500px;
+}

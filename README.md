@@ -5,10 +5,10 @@
 -Header
 Why? To display the title of the page to the user
 How? <h1></h1>
--2 Drop down selectors
+-3 Drop down selectors
 Why? To give the user the option to select different options
 How? `selectEl.value`
--2 image selections
+-3 image selections
 Why? To give the user visual options of what they selected
 How? `imgEl.src = someImgURL`
 -Input
