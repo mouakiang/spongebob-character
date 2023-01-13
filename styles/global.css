@@ -32,10 +32,72 @@ header .logo {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #left {
     width: 500px;
-    display: flex;
     height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#middle {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#right {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#left-dropdown {
+    justify-content: center;
+}
+
+#middle-dropdown {
+    justify-content: center;
+}
+
+#right-dropdown {
+    justify-content: center;
+}
+
+.left-section {
+    justify-content: center;
+}
+
+.middle-section {
+    justify-content: center;
+}
+
+.right-section {
+    justify-content: center;
+}
+
+.upper-section {
+    display: flex;
+}
+
+.images {
+    display: flex;
+}
+
+#comment-input,
+#comment-button {
+    width: 100px;
+    height: 20px;
+}
+
+.input-class {
+    display: flex;
 }

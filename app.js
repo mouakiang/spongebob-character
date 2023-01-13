@@ -11,7 +11,7 @@ const rightEl = document.getElementById('right');
 
 const inputEl = document.getElementById('comment-input');
 const buttonEl = document.getElementById('comment-button');
-const commentEl = document.getElementById('commens');
+const commentEl = document.getElementById('comments');
 const reportEl = document.getElementById('report');
 
 /* State */
@@ -55,7 +55,7 @@ rightDropdown.addEventListener('change', () => {
 buttonEl.addEventListener('click', () => {
     const commentValue = inputEl.value;
 
-    buttonEl.push(commentValue);
+    comments.push(commentValue);
 
     buttonEl.value = '';
 
@@ -67,7 +67,7 @@ function displayStats() {
 }
 
 function displayComments() {
-    commentEl.textContent = '';
+    comments.textContent = '';
 
     for (let comment of comments) {
         const newComment = document.createElement('p');
