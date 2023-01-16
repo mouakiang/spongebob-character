@@ -32,4 +32,71 @@ header .logo {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+}
+
+#left {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#middle {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#right {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+#comment-input,
+#comment-button {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(226, 126, 144);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.input-class {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(163, 143, 143);
 }
